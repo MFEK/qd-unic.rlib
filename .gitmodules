@@ -6,4 +6,4 @@
 	url = https://github.com/open-i18n/data-unicode-emoji.git
 [submodule "external/unicode/ucd"]
 	path = external/unicode/ucd
-	url = https://github.com/open-i18n/data-unicode-ucd.git
+	url = https://github.com/MFEK/data-unicode-ucd.git
