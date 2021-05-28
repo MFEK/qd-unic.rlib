@@ -301,6 +301,16 @@ char_property! {
             human => "Emoji Base and Glue After ZWJ",
         }
 
+        /// This property is a rule that "keep[s] horizontal whitespace together". It includes
+        /// all characters in General_Category Zs but which don't have Linebreak = Glue.
+        ///
+        /// See <http://www.unicode.org/reports/tr29/tr29-32.html>.
+        WSegSpace {
+            abbr => WSS,
+            long => WSegSpace,
+            human => "Word Segment Space", // (?)
+        }
+
         /// All other characters
         Other {
             abbr => XX,
