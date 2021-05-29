@@ -1,8 +1,8 @@
 # QD-UNIC: Unicode and Internationalization Crates for Rust
 
-[![UNIC-logo](docs/images/UNIC-logo.png)](https://github.com/MFEK/rust-unic.rlib/)
+[![UNIC-logo](docs/images/UNIC-logo.png)](https://github.com/MFEK/qd-unic.rlib/)
 
-<https://github.com/MFEK/rust-unic.rlib/>
+<https://github.com/MFEK/qd-unic.rlib/>
 
 **This is a fork!** Scroll down.
 
