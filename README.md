@@ -30,13 +30,44 @@ Sure, that's not the right way to do things. Sorry. That's why this is a fork.
 Use it if you can handle the caveats, avoid it if you can't and go contribute
 to UNIC.
 
+## Versions of QD-UNIC components
+
+```
+$ unic-versions
+UNIC: Unicode and Internationalization Crates for Rust
+Package: unic (0.9.0)
+
+Component: UNIC — Unicode Character Tools
+Package: unic-char (0.9.0)
+
+Component: UNIC — Unicode Character Database
+Package: unic-ucd (0.9.0)
+Unicode Version: 14.0.0
+
+Component: UNIC — Unicode Bidirectional Algorithm
+Package: unic-bidi (0.9.0)
+Unicode Version: 14.0.0
+
+Component: UNIC — Unicode Normalization Forms
+Package: unic-normal (0.9.0)
+Unicode Version: 14.0.0
+
+Component: UNIC — Unicode IDNA Compatibility Processing
+Package: unic-idna (0.9.0)
+Unicode Version: 10.0.0
+
+Component: UNIC — Unicode Emoji
+Package: unic-emoji (0.9.0)
+Emoji Version: 13.0.0
+```
+
 ## How to Use (QD-)UNIC
 
 In `Cargo.toml`:
 
 ```toml
 [dependencies]
-unic = "0.9.0"  # This has Unicode 10.0.0 data and algorithms
+unic = { git = "https://github.com/MFEK/qd-unic.rlib" }
 ```
 
 And in `main.rs`:
